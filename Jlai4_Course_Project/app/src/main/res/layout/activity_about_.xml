@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About_Activity">
+
+
+    <TextView
+        android:text="About Page"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:height="50dp"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="   This app is a course project i've been working on for my CS 477 class at George Mason University. Given our situation with the pandemic, I figure this app would come in handy for other students. Essentially, the app will display a variety of statistics base on user input."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Created by: Jun Lai\nVersion: 1.0.0"
+        android:textSize="20dp" />
+
+</LinearLayout>
